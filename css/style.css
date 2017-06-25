@@ -1,3 +1,25 @@
 label {
     display: block;
 }
+
+form {
+    font-size: 25px;
+    border: 1px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+input {
+    width: 500px;
+}
+
+@media(max-width: 800px) {
+    form {
+        font-size: 14px;
+        width: auto;
+    }
+
+    input {
+        width: 200px;
+    }
+}
