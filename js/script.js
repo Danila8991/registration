@@ -40,3 +40,7 @@ document.getElementById('form').addEventListener('submit', function (e) {
   validPhone();
 
 }, false);
+
+document.querySelector('.description').addEventListener('keyup', function (e) {
+    document.getElementById('counter').innerHTML = e.currentTarget.value.length;
+}, false);

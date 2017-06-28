@@ -4,23 +4,53 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+        <title>Spartak</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
         <div id='message'></div>
         <form id='form' action="">
+             <h1>Турнир по футболу "Кубок Спартака"</h1>
+            <h2>Приглашаем принять участие в турнире по футболу. Для участия капитану необходимо пройти процедуру регистрации команды.</h2>
             <label for="phone">Телефон</label>
             <input placeholder="8 (999) 999-99-99" id='phone' type="text">
             <label for="email">Почта</label>
             <input id='email' type="text">
             <label for="password">Пароль</label>
             <input id='password' type="password">
-            <label for="description">Описание</label>
-            <textarea name="" id="description" cols="30" rows="10"></textarea>
+            <label for="description">Описание<span id='counter'></span></label>
+            <textarea name="" id="description" class='description' cols="30" rows="10"></textarea>
             <br>
             <input type="submit" value='Отправить'>
         </form>
         <script type="text/javascript" src="js/script.js"></script>
+     </div>
+    <footer class="footer">
+        <div class="footer-width">
+                <div class="footer-left">
+                    <span class="footer-left__element">
+                        Название компании
+                        </span>
+            </div>
+                <div class="footer-center">
+                    <span class="footer-center__element">Пользовательское соглашение</span>
+                    <span class="footer-center__element">Помощь</span>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-right-list">
+                        <a href="#" class="footer__link">Сатистика</a>
+                        <a href="#" class="footer__link">Карта сайта</a>
+                        <a href="#" class="footer__link">О проекте</a>
+                        <a href="#" class="footer__link">Блог</a>
+                        <a href="#" class="footer__link">RSS</a>
+                    </div>
+                    <div class="footer-right-list">
+                        <a href="#" class="footer__link">Правовая информация</a>
+                        <a href="#" class="footer__link">Размещение рекламы</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
     </body>
 </html>
